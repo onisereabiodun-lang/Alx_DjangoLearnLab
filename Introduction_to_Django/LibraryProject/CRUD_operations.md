@@ -1,0 +1,11 @@
+# CRUD Operations for Book Model
+
+This file documents all CRUD operations performed in Django shell.
+
+---
+
+## 1. Create
+
+```python
+from bookshelf.models import Book
+book = Book.objects.create(title="1984", author="George Orwell", publication_year=1949)
